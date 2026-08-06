@@ -1,0 +1,27 @@
+[
+  {
+    "type": "income",
+    "category": "salary",
+    "amount": 50000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 3500
+  },
+  {
+    "type": "expense",
+    "category": "transport",
+    "amount": 1200
+  },
+  {
+    "type": "income",
+    "category": "freelance",
+    "amount": 8000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 2100
+  }
+]

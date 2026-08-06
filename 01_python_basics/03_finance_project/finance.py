@@ -1,4 +1,30 @@
-def analyze_transactions(transactions):
+def validate_transaction(transaction):
+    if not isinstance(transaction, dict):
+        raise TypeError("Транзакция должна быть словарём")
+    
+    required_keys = ("type", "category", "amount")
+    for key in required_keys:
+        if key not in transaction:
+            raise ValueError(f"Отсутствует обязательное поле: {key}")
+
+    if transaction["type"] not in ("income", "expense"):
+        raise ValueError("Недопустимый тип операции")
+
+    if not isinstance(transaction["category"], str):
+        raise TypeError("Категория операции должна быть строкой")
+    
+    if not transaction["category"].strip():
+        raise ValueError("Категория операции пустая")
+
+    amount = transaction["amount"]
+
+    if isinstance(amount, bool) or not isinstance(amount, (int, float)):
+        raise TypeError("Сумма операции должна быть числом")
+
+    if amount <= 0:
+        raise ValueError("Сумма операции меньше или равна нулю")
+
+def analyze_transactions(transactions):    
     total_income = 0
     total_expense = 0
     largest_expense = 0
