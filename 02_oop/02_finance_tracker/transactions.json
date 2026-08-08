@@ -1,0 +1,102 @@
+[
+  {
+    "type": "income",
+    "category": "salary",
+    "amount": 80000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 3500
+  },
+  {
+    "type": "expense",
+    "category": "transport",
+    "amount": 1200
+  },
+  {
+    "type": "income",
+    "category": "freelance",
+    "amount": 15000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 2100
+  },
+  {
+    "type": "expense",
+    "category": "rent",
+    "amount": 18000
+  },
+  {
+    "type": "expense",
+    "category": "entertainment",
+    "amount": 2500
+  },
+  {
+    "type": "expense",
+    "category": "education",
+    "amount": 4200
+  },
+  {
+    "type": "expense",
+    "category": "health",
+    "amount": 1700
+  },
+  {
+    "type": "income",
+    "category": "bonus",
+    "amount": 12000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 1800
+  },
+  {
+    "type": "expense",
+    "category": "transport",
+    "amount": 900
+  },
+  {
+    "type": "expense",
+    "category": "rent",
+    "amount": 18000
+  },
+  {
+    "type": "expense",
+    "category": "entertainment",
+    "amount": 3200
+  },
+  {
+    "type": "expense",
+    "category": "education",
+    "amount": 1500
+  },
+  {
+    "type": "expense",
+    "category": "health",
+    "amount": 2600
+  },
+  {
+    "type": "income",
+    "category": "freelance",
+    "amount": 8000
+  },
+  {
+    "type": "expense",
+    "category": "food",
+    "amount": 2700
+  },
+  {
+    "type": "expense",
+    "category": "transport",
+    "amount": 1500
+  },
+  {
+    "type": "expense",
+    "category": "electronics",
+    "amount": 24000
+  }
+]
