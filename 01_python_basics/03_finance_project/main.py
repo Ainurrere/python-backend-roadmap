@@ -1,4 +1,5 @@
 import json
+import java.util.Scanner;
 
 from finance import (
     analyze_transactions,
@@ -10,6 +11,12 @@ from finance import (
 
 
 if __name__ == "__main__":
+    desktop = Path.home() / "Desktop"
+    name = "Folder"
+    
+    for i in range(1, 11):
+        (desktop / f"{name}{i}").mkdir(exist_ok=True)
+    
     try:
         with open("transactions.json", mode="r", encoding="utf-8") as file:
             transactions = json.load(file)
